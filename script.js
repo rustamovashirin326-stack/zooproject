@@ -1,4 +1,4 @@
-// ============ MOBIL MENYU ============
+
 const navToggle = document.querySelector('.nav-toggle');
 const mainNav = document.querySelector('.main-nav');
 
@@ -9,7 +9,7 @@ if (navToggle && mainNav) {
   });
 }
 
-// ============ HUDUD KARTALARINI SICHQONCHA G'ILDIRAGI BILAN GORIZONTAL AYLANTIRISH ============
+
 const habitatScroll = document.querySelector('.habitat-scroll');
 
 if (habitatScroll) {
@@ -20,7 +20,7 @@ if (habitatScroll) {
   }, { passive: false });
 }
 
-// ============ FAOL NAV HAVOLASINI BO'LIM BO'YICHA YANGILASH ============
+
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.main-nav a[href^="#"]');
 
