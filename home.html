@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pomelo Zoopark</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='23' fill='%2316302A'/%3E%3Cpath d='M24 12 Q31 14 31 22 Q31 30 24 34 Q17 30 17 22 Q17 14 24 12Z' fill='%23E8A33D'/%3E%3Cpath d='M24 15 L24 31' stroke='%2316302A' stroke-width='1.2'/%3E%3Cpath d='M24 19 Q28 20 28 23' stroke='%2316302A' stroke-width='1.1' fill='none'/%3E%3Cpath d='M24 25 Q20 26 20 29' stroke='%2316302A' stroke-width='1.1' fill='none'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- NAVIGATSIYA -->
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="home.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <circle cx="24" cy="24" r="23" fill="none" stroke="var(--amber)" stroke-width="1.4"/>
+        <path d="M24 12 Q31 14 31 22 Q31 30 24 34 Q17 30 17 22 Q17 14 24 12Z" fill="var(--amber)"/>
+        <path d="M24 15 L24 31" stroke="var(--forest)" stroke-width="1.2"/>
+        <path d="M24 19 Q28 20 28 23" stroke="var(--forest)" stroke-width="1.1" fill="none"/>
+        <path d="M24 25 Q20 26 20 29" stroke="var(--forest)" stroke-width="1.1" fill="none"/>
+      </svg>
+      Pome<span>lo</span>
+    </a>
+    <nav class="main-nav">
+      <a href="home.html" class="active">Bosh sahifa</a>
+      <a href="gallery.html">Galereya</a>
+      <a href="#hududlar">Hududlar</a>
+      <a href="#tashrif">Tashrif</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menyuni ochish" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">120 dan ortiq tur &middot; 5 gektar &middot; bir shahar ichida</p>
+    <h1>Yovvoyi tabiat<br>shahar markazida <em>nafas oladi</em></h1>
+    <p class="hero-sub">Savannadan tropik o'rmongacha, muzlik mintaqasidan suv osti dunyosigacha — har bir hudud o'z iqlimi, ovozi va hikoyasi bilan sizni kutmoqda.</p>
+    <div class="hero-actions">
+      <a href="#tashrif" class="btn btn-primary">Chipta narxlari</a>
+      <a href="gallery.html" class="btn btn-ghost">Galereyani ko'rish</a>
+    </div>
+  </div>
+  <div class="hero-scene" aria-hidden="true">
+    <svg viewBox="0 0 800 400" class="scene-svg">
+      <ellipse cx="400" cy="380" rx="420" ry="40" fill="var(--ink)" opacity="0.25"/>
+      <g class="silhouette giraffe">
+        <path d="M120 340 L120 260 Q120 220 140 200 L150 150 L165 150 L158 205 Q175 220 175 260 L178 340 L165 340 L162 270 L150 270 L148 340 Z" fill="var(--amber)"/>
+        <circle cx="152" cy="140" r="9" fill="var(--amber)"/>
+      </g>
+      <g class="silhouette elephant">
+        <path d="M540 340 Q520 340 515 310 Q490 305 480 280 Q470 250 490 230 Q510 210 545 215 Q580 210 600 230 Q615 245 610 265 L620 340 L600 340 L595 280 L580 340 L560 340 L558 290 L545 340 Z" fill="var(--canopy-light)"/>
+      </g>
+      <g class="silhouette bird">
+        <path d="M660 120 Q680 100 710 110 Q700 95 715 85 Q735 95 730 115 Q745 120 745 135 Q720 150 690 140 Q665 135 660 120Z" fill="var(--coral)"/>
+      </g>
+      <path d="M0 400 Q200 350 400 400 Q600 350 800 400 L800 400 L0 400 Z" fill="var(--canopy)"/>
+    </svg>
+  </div>
+</section>
+
+<!-- STATISTIKA -->
+<section class="stat-strip">
+  <div class="stat"><span class="stat-num">124</span><span class="stat-label">Turlar soni</span></div>
+  <div class="stat-div"></div>
+  <div class="stat"><span class="stat-num">09:00–18:00</span><span class="stat-label">Ish vaqti</span></div>
+  <div class="stat-div"></div>
+  <div class="stat"><span class="stat-num">5 ga</span><span class="stat-label">Umumiy maydon</span></div>
+  <div class="stat-div"></div>
+  <div class="stat"><span class="stat-num">4</span><span class="stat-label">Iqlim hududi</span></div>
+</section>
+
+<!-- HUDUDLAR -->
+<section class="habitats" id="hududlar">
+  <div class="section-head">
+    <p class="eyebrow">Hududlar bo'yicha sayohat</p>
+    <h2>To'rtta dunyo, bitta marshrut</h2>
+  </div>
+
+  <div class="habitat-scroll">
+    <article class="habitat-card savanna">
+      <span class="habitat-index">01</span>
+      <img class="habitat-art" src="https://images.unsplash.com/photo-1761078206756-68d3023f3021?w=700&h=420&fit=crop&auto=format&q=75" alt="Savanna landshafti, botayotgan quyosh va akatsiya daraxtlari" loading="lazy">
+      <div class="card-body">
+        <h3>Savanna</h3>
+      <p>Ochiq dalalar, uzun soyalar va sherlarning tinch nafasi. Kunning eng jonli hudud — ayniqsa ertalab soat 10 atrofida.</p>
+      <span class="habitat-tag">Sher &middot; Zebra &middot; Jirafa</span>
+      </div>
+    </article>
+    <article class="habitat-card jungle">
+      <span class="habitat-index">02</span>
+      <img class="habitat-art" src="https://images.unsplash.com/photo-1699575678956-aefa714b67f0?w=700&h=420&fit=crop&auto=format&q=75" alt="Tropik o'rmon soyaboni, pastdan yuqoriga qarab olingan manzara" loading="lazy">
+      <div class="card-body">
+        <h3>Tropik o'rmon</h3>
+      <p>Nam havo, zich yaproqlar va yuqoridan kelayotgan qushlar sadosi. Maymunlar ustunlar orasida sakraydi.</p>
+      <span class="habitat-tag">Maymun &middot; Tukan &middot; Ilon</span>
+      </div>
+    </article>
+    <article class="habitat-card arctic">
+      <span class="habitat-index">03</span>
+      <img class="habitat-art" src="https://images.unsplash.com/photo-1551392561-14065d8cd089?w=700&h=420&fit=crop&auto=format&q=75" alt="Muzlik va muz togʻlari, Antarktida manzarasi" loading="lazy">
+      <div class="card-body">
+        <h3>Muzlik mintaqasi</h3>
+      <p>Sovutilgan havo, oq va ko'k ranglar. Pingvinlar suzayotganini shisha devor orqali kuzatish mumkin.</p>
+      <span class="habitat-tag">Pingvin &middot; Qutb ayig'i</span>
+      </div>
+    </article>
+    <article class="habitat-card aqua">
+      <span class="habitat-index">04</span>
+      <img class="habitat-art" src="https://images.unsplash.com/photo-1633465091434-117f2bcffd9d?w=700&h=420&fit=crop&auto=format&q=75" alt="Akvarium ichidagi baliqlar va suv osti manzarasi" loading="lazy">
+      <div class="card-body">
+        <h3>Suv osti dunyosi</h3>
+      <p>Katta akvarium tunnellari orqali baliqlar to'dasi ustidan yurgandek his qilasiz.</p>
+      <span class="habitat-tag">Akula &middot; Timsoh &middot; Baliqlar</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- MASHHUR SAKINLAR -->
+<section class="residents">
+  <div class="section-head">
+    <p class="eyebrow">Diqqatga sazovor</p>
+    <h2>Bugungi mehmonlar ro'yxati</h2>
+  </div>
+  <div class="residents-grid">
+    <div class="resident-card">
+      <div class="resident-thumb thumb-lion">
+        <img src="https://images.unsplash.com/photo-1689595131476-e141af904891?w=300&h=300&fit=crop&auto=format&q=75" alt="Sherning yaqindan olingan surati" loading="lazy">
+      </div>
+      <h4>Sher</h4>
+      <p class="latin">Panthera leo</p>
+      <p class="fact">Erkak sherning yolg'oni yoshi va kuchi haqida "hujjat" vazifasini bajaradi.</p>
+    </div>
+    <div class="resident-card">
+      <div class="resident-thumb thumb-giraffe">
+        <img src="https://images.unsplash.com/photo-1538127426967-75a6c73f6d20?w=300&h=300&fit=crop&auto=format&q=75" alt="Jirafaning yaqindan olingan surati" loading="lazy">
+      </div>
+      <h4>Jirafa</h4>
+      <p class="latin">Giraffa camelopardalis</p>
+      <p class="fact">Bo'yni uzun bo'lsa-da, bo'yin umurtqalari soni odamnikidek — atigi yetti dona.</p>
+    </div>
+    <div class="resident-card">
+      <div class="resident-thumb thumb-penguin">
+        <img src="https://images.unsplash.com/photo-1544817287-d26f7ed1e4d9?w=300&h=300&fit=crop&auto=format&q=75" alt="Pingvinning surati" loading="lazy">
+      </div>
+      <h4>Pingvin</h4>
+      <p class="latin">Spheniscidae</p>
+      <p class="fact">Uchmasa-da, suv ostida qanotlari yordamida haqiqiy "parvoz" qiladi.</p>
+    </div>
+    <div class="resident-card">
+      <div class="resident-thumb thumb-monkey">
+        <img src="https://images.unsplash.com/photo-1525013069870-2730c32afccb?w=300&h=300&fit=crop&auto=format&q=75" alt="Maymunning daraxtdagi surati" loading="lazy">
+      </div>
+      <h4>Maymun</h4>
+      <p class="latin">Cercopithecidae</p>
+      <p class="fact">Guruh ichidagi ijtimoiy tuzilma inson jamoalariga juda o'xshaydi.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TASHRIF MA'LUMOTI -->
+<section class="visit" id="tashrif">
+  <div class="visit-card">
+    <div class="visit-col">
+      <h2>Tashrif rejasi</h2>
+      <p>Chipta oldindan onlayn yoki kassada sotib olinadi. Guruhlar uchun chegirma mavjud.</p>
+      <table class="price-table">
+        <tr><td>Kattalar</td><td>35 000 so'm</td></tr>
+        <tr><td>O'quvchi / talaba</td><td>20 000 so'm</td></tr>
+        <tr><td>7 yoshgacha</td><td>Bepul</td></tr>
+      </table>
+    </div>
+    <div class="visit-col">
+      <h3>Ish vaqti</h3>
+      <ul class="hours-list">
+        <li><span>Dushanba</span><span>Yopiq</span></li>
+        <li><span>Sesh. &ndash; Juma</span><span>09:00 &ndash; 18:00</span></li>
+        <li><span>Shanba &ndash; Yak.</span><span>09:00 &ndash; 20:00</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <a href="home.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <circle cx="24" cy="24" r="23" fill="none" stroke="var(--amber)" stroke-width="1.4"/>
+        <path d="M24 12 Q31 14 31 22 Q31 30 24 34 Q17 30 17 22 Q17 14 24 12Z" fill="var(--amber)"/>
+        <path d="M24 15 L24 31" stroke="var(--forest)" stroke-width="1.2"/>
+        <path d="M24 19 Q28 20 28 23" stroke="var(--forest)" stroke-width="1.1" fill="none"/>
+        <path d="M24 25 Q20 26 20 29" stroke="var(--forest)" stroke-width="1.1" fill="none"/>
+      </svg>
+      Pome<span>lo</span>
+    </a>
+    <nav>
+      <a href="home.html">Bosh sahifa</a>
+      <a href="gallery.html">Galereya</a>
+      <a href="#hududlar">Hududlar</a>
+      <a href="#tashrif">Tashrif</a>
+    </nav>
+  </div>
+  <p class="footer-note">Talabalar loyihasi &middot; Zoopark veb-sayti &middot; 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
